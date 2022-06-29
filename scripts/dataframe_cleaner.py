@@ -22,7 +22,6 @@ This scripts is responsible for preprocessing of data
 """
 
 from dataclasses import replace
-import logging
 import numpy as np
 import pandas as pd
 from sqlalchemy import column

@@ -21,14 +21,8 @@ This scripts is responsible for preprocessing of data
 	percent_missing
 """
 
-from dataclasses import replace
 import numpy as np
 import pandas as pd
-from sqlalchemy import column
-from log import get_logger
-
-my_logger = get_logger("DfOverview")
-my_logger.debug("Loaded successfully!")
 
 class DfCleaner():
 	"""

@@ -1,5 +1,5 @@
 [core]
     remote = myremote
+    autostage = true
 ['remote "myremote"']
-    url = s3://mybucket/path
-    region = us-east-2
+    url = gdrive://1Io6tRvRHTkfUTThT9ZxZIE6e24HG-BYZ
